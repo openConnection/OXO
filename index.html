@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>openConnection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://bootswatch.com/4/superhero/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+<body>
+    <header>
+        <div id="ht">
+            <strong>OXO</strong>
+        </div>
+    </header>
+
+    <div id="ht">
+        <strong>An OXO made in js</strong>
+    </div>
+
+    <div class="custom-control custom-switch" id="setIa">
+        <input type="checkbox" class="custom-control-input" id="customSwitch1" checked="">
+        <label class="custom-control-label" for="customSwitch1">Jouer contre l'IA ? | Pour l'instant pas d'importance</label>
+    </div>
+
+    <div id="status">
+       <strong id = "win">Tu viens de gagner !</strong>
+       <div id="btn_loop"><button type="button" class="btn btn-outline-success" id="btn_loop_btn">Recommencer la partie !</button></div>
+    </div>
+
+    <div class="container">
+        <div id="game">
+            <div>
+                <button type="button" class="btn btn-outline-primary" id="0"> </button>
+                <button type="button" class="btn btn-outline-primary" id="1"> </button>
+                <button type="button" class="btn btn-outline-primary" id="2"> </button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-outline-primary" id="3"> </button>
+                <button type="button" class="btn btn-outline-primary" id="4"> </button>
+                <button type="button" class="btn btn-outline-primary" id="5"> </button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-outline-primary" id="6"> </button>
+                <button type="button" class="btn btn-outline-primary" id="7"> </button>
+                <button type="button" class="btn btn-outline-primary" id="8"> </button>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

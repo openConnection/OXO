@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;    
+}
+
+header{
+    background-color: beige;
+    padding: 10px;
+    margin: 0px;
+}
+
+header > #ht {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Asap', sans-serif;
+    color: black;
+}
+
+#ht {
+    text-align: center;
+    font-size:  32px;
+    font-family: 'Asap', sans-serif;
+    color: white;
+    margin: 30px;
+}
+
+#game {
+    width: 600px;
+    height: 600px;
+    overflow: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+#game button {
+    border-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 150px;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 8px;
+    float: left;
+}
+
+#game div {
+    width: 500px;
+    margin: auto;
+    clear: both;
+}
+
+#status {
+    color: rgb(255, 255, 255);
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Asap', sans-serif;
+}
+
+#footer {
+    text-align: center;
+    font-size: 18px;
+}
+
+#btn_loop{
+    margin: 15px;
+}
+
+#setIa{
+    text-align: center;
+}
